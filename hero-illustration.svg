@@ -1,0 +1,46 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">社内で乾杯する人たち</title>
+  <desc id="desc">暖かい色合いで描かれた社内交流会のイラスト</desc>
+  <defs>
+    <linearGradient id="bg" x1="800" y1="0" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD9C7"/>
+      <stop offset="1" stop-color="#FFF4EC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="230" cy="200" r="110" fill="#FFECDD"/>
+  <circle cx="1400" cy="160" r="130" fill="#FFE9DA"/>
+  <circle cx="1290" cy="710" r="150" fill="#FFE0CF"/>
+  <rect x="0" y="640" width="1600" height="260" fill="#F6B88D"/>
+
+  <g transform="translate(330 220)">
+    <circle cx="140" cy="130" r="72" fill="#FFC7A5"/>
+    <rect x="75" y="220" width="130" height="185" rx="38" fill="#5F7CFF"/>
+    <rect x="54" y="250" width="45" height="135" rx="20" fill="#4B67E3"/>
+    <path d="M212 255C246 240 273 230 300 214L327 246C297 272 262 283 228 290L212 255Z" fill="#FFC7A5"/>
+    <rect x="302" y="150" width="46" height="120" rx="11" fill="#FFD269"/>
+    <rect x="302" y="150" width="46" height="18" rx="9" fill="#FFF0B8"/>
+    <path d="M106 133C128 153 153 153 173 133" stroke="#8E4A30" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="116" cy="115" r="7" fill="#8E4A30"/>
+    <circle cx="166" cy="115" r="7" fill="#8E4A30"/>
+  </g>
+
+  <g transform="translate(830 220)">
+    <circle cx="160" cy="126" r="72" fill="#FFCAA9"/>
+    <rect x="96" y="215" width="132" height="190" rx="38" fill="#FF8A5B"/>
+    <rect x="228" y="250" width="45" height="128" rx="20" fill="#FF7541"/>
+    <path d="M100 252C70 239 44 226 18 212L-10 245C20 269 54 281 87 288L100 252Z" fill="#FFCAA9"/>
+    <rect x="-34" y="152" width="47" height="118" rx="11" fill="#FFD269"/>
+    <rect x="-34" y="152" width="47" height="18" rx="9" fill="#FFF0B8"/>
+    <path d="M128 130C149 152 174 151 194 129" stroke="#8E4A30" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="138" cy="112" r="7" fill="#8E4A30"/>
+    <circle cx="188" cy="112" r="7" fill="#8E4A30"/>
+  </g>
+
+  <g fill="#FFFFFF" opacity="0.68">
+    <circle cx="746" cy="255" r="13"/>
+    <circle cx="770" cy="228" r="9"/>
+    <circle cx="792" cy="248" r="8"/>
+    <circle cx="816" cy="215" r="11"/>
+  </g>
+</svg>

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>社内飲み会のお知らせ</title>
+    <style>
+      :root {
+        --bg: #fff8f2;
+        --card: #ffffff;
+        --text-main: #2f2a26;
+        --text-sub: #6f635a;
+        --accent: #ff8a5b;
+        --accent-soft: #ffe0d2;
+        --line: #f2d2c3;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", sans-serif;
+        color: var(--text-main);
+        background:
+          radial-gradient(circle at 12% 8%, #ffe7dc 0, transparent 40%),
+          radial-gradient(circle at 88% 92%, #ffeedd 0, transparent 35%),
+          var(--bg);
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      .event-card {
+        width: min(760px, 100%);
+        background: var(--card);
+        border-radius: 28px;
+        overflow: hidden;
+        box-shadow: 0 16px 42px rgba(117, 78, 44, 0.16);
+        border: 1px solid #fff;
+      }
+
+      .hero {
+        position: relative;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+      }
+
+      .hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .hero::after {
+        content: "🍻 Let's Connect!";
+        position: absolute;
+        left: 20px;
+        bottom: 18px;
+        background: rgba(255, 255, 255, 0.9);
+        color: #7e4b30;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        padding: 10px 14px;
+        border-radius: 12px;
+        font-size: clamp(14px, 2vw, 18px);
+      }
+
+      .content {
+        padding: 30px;
+      }
+
+      h1 {
+        margin: 0 0 18px;
+        font-size: clamp(24px, 3.8vw, 36px);
+        line-height: 1.2;
+      }
+
+      .meta {
+        display: grid;
+        gap: 14px;
+      }
+
+      .meta-item {
+        display: grid;
+        grid-template-columns: 132px 1fr;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid var(--line);
+        background: linear-gradient(120deg, #fff8f3, #ffffff);
+        border-radius: 14px;
+        padding: 13px 14px;
+      }
+
+      .label {
+        font-size: 14px;
+        color: var(--text-sub);
+        font-weight: 700;
+      }
+
+      .value {
+        font-size: clamp(15px, 2.5vw, 19px);
+        font-weight: 700;
+      }
+
+      @media (max-width: 560px) {
+        .content {
+          padding: 22px;
+        }
+
+        .meta-item {
+          grid-template-columns: 1fr;
+          gap: 6px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="event-card" aria-label="社内飲み会の告知">
+      <section class="hero">
+        <img src="hero-illustration.svg" alt="笑顔で乾杯する社内メンバーのイラスト" />
+      </section>
+
+      <section class="content">
+        <h1>IT企業 社内交流会（飲み会）</h1>
+        <div class="meta">
+          <div class="meta-item">
+            <span class="label">タイトル</span>
+            <span class="value">春のチーム交流ナイト</span>
+          </div>
+          <div class="meta-item">
+            <span class="label">開催日時</span>
+            <span class="value">2026年3月6日（金）19:00〜21:30</span>
+          </div>
+          <div class="meta-item">
+            <span class="label">場所</span>
+            <span class="value">本社 8F ラウンジスペース</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
